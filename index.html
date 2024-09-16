@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
+    <title>Em busca do tesouro</title>
+</head>
+<body>
+<main>
+    <div class="passo ativo" id="passo-0">
+        <img src="cenario-passo0.jpg" alt="">
+        <p>Um dia, enquanto andava pela rua, encontrei um mini mapa. Percebi que havia dois caminhos e decidi percorrer esse mapa para descobrir o que havia no fim.</p>
+        <button class="btn-proximo" data-proximo="1">Ir para floresta</button>
+        <button class="btn-proximo" data-proximo="2">Ir para caverna</button>
+    </div>
+    <div class="passo" id="passo-1">
+        <p>Você encontrou um obstáculo no meio do caminho.</p>
+        <button class="btn-proximo" data-proximo="3">Passar pelo obstáculo</button>
+        <button class="btn-proximo" data-proximo="4">Desistir e voltar para casa</button>
+    </div>
+    <div class="passo" id="passo-2">
+        <p>Você encontrou um obstáculo no meio do caminho.</p>
+        <button class="btn-proximo" data-proximo="5">Passar pelo obstáculo</button>
+        <button class="btn-proximo" data-proximo="6">Desistir e voltar para casa</button>
+    </div>
+    <div class="passo" id="passo-3">
+        <p>Ultrapassando o obstáculo, avista-se um morro como única saída da floresta.</p>
+            <button class="btn-proximo" data-proximo="7">Seguir para o fim da floresta</button>
+    </div>
+    <div class="passo" id="passo-4">
+        <p>Você decide que a aventura é grande demais e volta para casa, mas sempre se pergunta o que teria encontrado.
+            Reiniciem a página</p>
+    </div>
+    <div class="passo" id="passo-5">
+        <p>Ultrapassando o obstáculo, avista-se um morro como única saída da caverna.</p>
+        <button class="btn-proximo" data-proximo="7">seguir para o fim da caverna</button>
+    </div>
+    <div class="passo" id="passo-6">
+        <p>Você decide que a aventura é grande demais e volta para casa, mas sempre se pergunta o que teria encontrado.
+            Reiniciem a página</p>
+    </div>
+    <div class="passo" id="passo-7">
+        <p>Ao sair desse percurso, você se depara com dois rios para atravessar.</p>
+        <button class="btn-proximo" data-proximo="8">Seguir pelo rio à esquerda</button>
+        <button class="btn-proximo" data-proximo="9">Seguir pelo rio à direita</button>
+    </div>
+    <div class="passo" id="passo-8">
+        <p>Chegando perto do rio, você encontra alguns obstáculos.</p>
+        <button class="btn-proximo" data-proximo="10">Passar pelos obstáculos</button>
+    </div>
+    <div class="passo" id="passo-9">
+        <p>Chegando perto do rio voc epercebe que nao tem como continuar por esse lado. </p>
+        <button class="btn-proximo" data-proximo="11">Retornar e tentar o outro rio</button>
+    </div>
+    <div class="passo" id="passo-10">
+        <p>Ao cruzar o rio, você finalmente acha o tesouro que tanto procurou. </p>
+    </div>
+    <div class="passo" id="passo-11">
+        <p>Ao retomar ao outro rio voce se depara com alguns obstaculos. </p>
+        <button class="btn-proximo" data-proximo="10">Passar pelos obstáculos</button>
+    </div>
+</main>
+<script src="script.js"></script>
+</body>
+</html>
